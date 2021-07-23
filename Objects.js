@@ -6,3 +6,8 @@ let Person = {
 console.log(Person.name);
 console.log(Person.age);
 console.log(Person);
+
+// Dot Notation
+Person.name = 'Ali';
+console.log(Person.name);
+console.log(Person);
