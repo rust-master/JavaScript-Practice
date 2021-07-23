@@ -13,8 +13,8 @@ console.log(Person.name);
 console.log(Person);
 
 // Bracket Notation
-
-Person['name'] = 'Raza';
+let selection = 'name'
+Person[selection] = 'Raza';
 console.log(Person.name);
 console.log(Person.age);
 console.log(Person);
