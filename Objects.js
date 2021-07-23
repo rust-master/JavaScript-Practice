@@ -5,3 +5,4 @@ let Person = {
 
 console.log(Person.name);
 console.log(Person.age);
+console.log(Person);
