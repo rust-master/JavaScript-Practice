@@ -6,6 +6,13 @@
 
 // Modules
 // define module to constant to avoid exception
-const log = require('./logger');
+const EventEmitter = require('events');
 
-log('message');
+const Logger = require('./logger');
+const logger = new Logger();
+
+logger.on('messageLogged', (arg) => {
+    console.log('Listener callled', arg);  
+});
+
+logger.log('message');
