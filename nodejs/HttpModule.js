@@ -5,6 +5,11 @@ const server = http.createServer((res, req) => {
         res.write('Zaryab');
         res.end();
     }
+
+    if(req.url === '/api/course') {
+        res.write(JSON.stringify([1, 2, 3]));
+        res.end();
+    }
 });
 
 
