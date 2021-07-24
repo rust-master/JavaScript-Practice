@@ -1,6 +1,1 @@
-# JavaScript-Practice
-
-## Topics
-- For Loop
-- if else
-
+# JavaScript and Node Js practice work
