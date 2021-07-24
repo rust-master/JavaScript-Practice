@@ -3,7 +3,8 @@ const EventEmitter = require('events');
 const emitter = new EventEmitter();
 
 // Register a listener
-emitter.on('messageLogged', function(arg) {
+// arrow function
+emitter.on('messageLogged', (arg) => {
   console.log('Listener callled', arg);
 });
 
