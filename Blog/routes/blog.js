@@ -11,10 +11,9 @@ router.get('/', (req, res) => {
 })
 
 router.get('/blog', (req, res) => {
-    // blogs.forEach(element => {
-    //     console.log(element.title)
-    // });
-    res.sendFile(path.join(__dirname, '../templates/BlogHome.html'))
+    res.render('blogHome', {
+        blogs: blogs
+    })
 })
 
 router.get('/blogpost/:slug', (req, res) => {
