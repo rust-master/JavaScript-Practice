@@ -1,28 +1,28 @@
 blogs = [
     {
-        "id": "1",
-        "title": "Ruby Blog",
-        "content": "Ruby Blog Content",
+        title: "Ruby Blog",
+        content: "Ruby Blog Content",
+        slug: "ruby-learn"
     },
     {
-        "id": "2",
-        "title": "Java Blog",
-        "content": "Java Blog Content",
+        title: "Java Blog",
+        content: "Java Blog Content",
+        slug: "java-learn"
     },
     {
-        "id": "3",
-        "title": "Python Blog",
-        "content": "Python Blog Content",
+        title: "Python Blog",
+        content: "Python Blog Content",
+        slug: "python-learn"
     },
     {
-        "id": "4",
-        "title": "JavaScript Blog",
-        "content": "JavaScript Blog Content",
+        title: "JavaScript Blog",
+        content: "JavaScript Blog Content",
+        slug: "javascript-learn"
     },
     {
-        "id": "5",
-        "title": "Kotlin Blog",
-        "content": "Kotlin Blog Content",
+        title: "Kotlin Blog",
+        content: "Kotlin Blog Content",
+        slug: "kotlin-learn"
     }
 ];
 
