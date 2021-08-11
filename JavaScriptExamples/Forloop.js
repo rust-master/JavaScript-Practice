@@ -11,14 +11,23 @@
 //     }
 // }
 
+// let guest = 6;
+// let chair = 4;
+// let arrangments = 1;
 
-let guest = 6;
-let chair = 4;
-let arrangments = 1;
+// for(let i=0; i<chair; i++){
+//     arrangments *= guest-i;
+// }
 
-for(let i=0; i<chair; i++){
-    arrangments *= guest-i;
+// console.log(`Possible Arrangments: ${arrangments}`);
+
+for (let i = 1; i < 1000; i++) {
+  if (i % 7 == 0) {
+    console.log(i + " divisible by 7");
+  }
 }
-
-console.log(`Possible Arrangments: ${arrangments}`);
-
+for (let i = 1; i < 1000; i++) {
+  if (i % 5 == 0) {
+    console.log(i + " divisible by 5");
+  }
+}
