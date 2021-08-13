@@ -21,13 +21,21 @@
 
 // console.log(`Possible Arrangments: ${arrangments}`);
 
-for (let i = 1; i < 1000; i++) {
-  if (i % 7 == 0) {
-    console.log(i + " divisible by 7");
+// for (let i = 1; i < 1000; i++) {
+//   if (i % 7 == 0) {
+//     console.log(i + " divisible by 7");
+//   }
+// }
+// for (let i = 1; i < 1000; i++) {
+//   if (i % 5 == 0) {
+//     console.log(i + " divisible by 5");
+//   }
+// }
+
+for(let i=1; i<=5; i++){
+  for(let j=1; j<=i; j++) {
+    process.stdout.write(`${i}`);
   }
+  console.log("")
 }
-for (let i = 1; i < 1000; i++) {
-  if (i % 5 == 0) {
-    console.log(i + " divisible by 5");
-  }
-}
+
